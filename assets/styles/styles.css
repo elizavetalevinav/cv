@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-font-family: 'Roboto';sans-serif
+font-family: 'Roboto', sans-serif
 /*  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  font: normal 16px 'Roboto', sans-serif;
+  font-family:'Roboto',sans-serif
 margin: 10px;
-    
-  background-color: #f6ecec;
+background-color: #f6ecec;
 }
 
 .avatar {
   width: 200px;
-
   border-radius: 28px;
 box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 
@@ -65,5 +63,16 @@ form input[type='submit']:hover {
   font-family: italic;
   font-weight: bold;
   text-decoration: none;
- 
+/* text-transform: uppercase; */ 
+/*letter-spacing: 5px; */
+/*word-spacing: 42px*/;
+}
+/* Box model */
+.container {
+max-width:750px;
+margin: auto;
+
+}
+.social {
+background-color: #5cb85c;
 }
