@@ -27,11 +27,10 @@ a:visited {
   width: 200px;
   border-radius: 28px;
 box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-
-
 }
+
 h1 {
-  color: #340909;
+  color: #4b0d0d;
 }
 table {
   width: 100%;
@@ -44,17 +43,21 @@ td {
   padding: 10px;
   text-align: left;
 }
+
 th {
   background-color: #eee;
 }
+
 ul,
 ol {
   margin-bottom: 20px;
 }
+
 form label {
   display: block;
   margin-top: 10px;
 }
+
 form input[type='text'],
 form textarea {
   width: 100%;
@@ -74,8 +77,8 @@ form input[type='submit']:hover {
   background-color: #4cae4c;
 }
 .info p {
-  color: rgb(26, 21, 16);
-  margin: 5px 0;
+  color: rgb(64, 52, 39);
+  margin: 5px 10px;
   font-family: italic;
   font-weight: bold;
   text-decoration: none;
@@ -100,7 +103,8 @@ margin: auto;
   padding: 20px;
   box-sizing: border-box;
  }*/
-.bg-pink {
+
+.bg-red {
   background-color: #f8c6c8;      
 }
 .bg-yellow {
