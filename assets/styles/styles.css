@@ -5,6 +5,23 @@ font-family: 'Roboto', sans-serif;
 margin: 10px;
 background-color: #f6eecc;
 }
+a {
+  color: #340909;
+  text-decoration: none;
+
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #9e6f81;
+}
+a:visited {
+  color: #52111f;
+} 
 
 .avatar {
   width: 200px;
@@ -72,6 +89,32 @@ max-width:750px;
 margin: auto;
 
 }
-.social {
-background-color: #5cb85c;
+
+/* .box-model > div {
+  background-color: #f0ad4e;
+  height: 200px;
+  width: 25%;
+  float: left;
+  border: 5px solid #340909;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+ }*/
+.bg-pink {
+  background-color: #f8c6c8;      
 }
+.bg-yellow {
+  background-color: #f6eecc;  
+}
+.bg-green {
+  background-color: #d4edda;  
+}
+
+ .card
+  {
+    background-color: white;
+    padding: 15px;20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
