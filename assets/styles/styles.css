@@ -134,19 +134,21 @@ margin: auto;
   }
   .list {
     padding: 10px 15px;
-    border-bottom: 1px solid #eee;
   }
   .list li {
     color: #331717;
     margin-bottom: 10px;
-    border-bottom: 1px solid #eee;
   }
   .table {
     width: 100%;;
   }
   .table td {
-    padding: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
   }
-  
+  .table td:nth-child(2),
+  .table td:nth-child(3) {
+    color: #4a2e2e;
+  }
+  .table tr:nth-child(even) {
+    background-color: #552222;
+  }
