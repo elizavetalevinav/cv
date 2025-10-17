@@ -21,10 +21,11 @@
 html,body{
   background: var(--bg);
   color: var(--text);
-  font-family: "Nunito", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: "Rubik", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   line-height: 1.6;
   margin:0;
 }
+
 
 /* мягкие «пятна» пастели */
 .candy-bg{
@@ -140,3 +141,76 @@ a:hover{ text-decoration: none; }
 
 /* контейнеры секций */
 .section{ background: var(--card); border:2px solid var(--line); border-radius: var(--radius-lg); padding:18px; margin-top:18px; }
+
+/* === FINAL OVERRIDE: submit как зефирка === */
+form input[type='submit']{
+  appearance: none; -webkit-appearance: none;
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 8px;
+  padding: 12px 18px !important;
+  border-radius: 999px !important;
+  border: 2px solid var(--line) !important;
+  background: linear-gradient(180deg, #edc0d0, #f4a4d4) !important; /* лаванда */
+  color: #3A3361 !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+  box-shadow: 0 8px 24px rgba(239, 214, 228, 0.18) !important;
+  transition: transform .18s cubic-bezier(.2,.8,.2,1), filter .18s cubic-bezier(.2,.8,.2,1);
+  cursor: pointer;
+}
+
+form input[type='submit']:hover{
+  transform: translateY(-2px) scale(1.02);
+  filter: saturate(1.05);
+}
+
+form input[type='submit']:active{
+  transform: translateY(0);
+}
+/* описание под именем */
+.subtext {
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  color: #7A4C6E; /* мягкий сливовый */
+  font-style: italic;
+  opacity: 0.9;
+  margin: 6px 0;
+}
+
+/* второе предложение чуть светлее */
+.subtext.secondary {
+  color: #9A6C9A;
+  font-size: 16px;
+  font-style: normal;
+}
+  /* прицельно по месту + !important на всякий */
+.header-card p.subtext{
+  font-family: "Comfortaa", "Rubik", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  color: #7A4C6E !important;
+  letter-spacing: .2px;
+  margin: 6px 0;
+}
+
+.header-card p.subtext.secondary{
+  color: #9A6C9A !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+.section h2,
+.section-title,
+h2.section-title {
+  font-family: "Comfortaa", "Rubik", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+  font-weight: 700;
+  font-size: 30px;
+  color: #4E3454;              /* мягкий сливово-розовый */
+  letter-spacing: .3px;
+  text-shadow: 0 0 4px rgba(255, 210, 230, .25);
+}
+
+.section#hobby h2 {
+  font-size: 24px;
+}

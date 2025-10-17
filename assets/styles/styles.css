@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');*/
 body {
   font-family: 'Roboto', sans-serif;
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
@@ -28,7 +28,6 @@ a:visited {
 }
 
 .info {
-  background-color: #e6cccd;
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -70,17 +69,31 @@ form textarea {
   margin-top: 5px;
   box-sizing: border-box;
 }
-form input[type='submit'] {
+/* form input[type='submit'] {
   margin-top: 10px;
   padding: 10px 15px;
-  background-color: #5cb85c;
+  background-color: #e6f0e6;
   color: white;
   border: none;
   cursor: pointer;
 }
+
+form input[type='submit']:hover {
+  background-color: #4cae4c;
+} */
+form input[type='submit'] {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ebadcd; /* ← вот эта строка */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 form input[type='submit']:hover {
   background-color: #4cae4c;
 }
+
 .info p {
   color: rgb(64, 52, 39);
   margin: 5px 10px;
@@ -115,7 +128,7 @@ form input[type='submit']:hover {
   background-color: #f6eecc;
 }
 .bg-green {
-  background-color: #f5f7f2;
+  background-color: #f7e0e6;
 }
 
  .card
@@ -150,3 +163,9 @@ form input[type='submit']:hover {
   /*.table tr:nth-child(even) {
     background-color: #5d2a2a;
   }*/
+  .header-card {
+  background: #FFEFF8;
+}
+.subtext {
+  text-shadow: 0 0 6px rgba(255, 172, 220, 0.35);
+}
