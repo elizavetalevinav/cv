@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-font-family: 'Roboto', sans-serif;
-/*  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-margin: 10px;
-background-color: #f9d6d6;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  margin: 10px;
+  background-color: #f9d6d6;
 }
 a {
   color: #340909;
   text-decoration: none;
-
 }
-
 
 a:hover {
   text-decoration: underline;
@@ -21,13 +19,12 @@ a:active {
 }
 a:visited {
   color: #52111f;
-} 
-
+}
 
 .avatar {
   width: 200px;
   border-radius: 28px;
-box-shadow: 4px 4px 14px rgba(69, 44, 44, 0.25);
+  box-shadow: 4px 4px 14px rgba(69, 44, 44, 0.25);
 }
 
 .info {
@@ -36,8 +33,6 @@ box-shadow: 4px 4px 14px rgba(69, 44, 44, 0.25);
   border-radius: 8px;
   margin-bottom: 20px;
 }
-
-
 
 h1 {
   color: #4b0d0d;
@@ -92,15 +87,14 @@ form input[type='submit']:hover {
   font-family: italic;
   font-weight: bold;
   text-decoration: none;
-/* text-transform: uppercase; */ 
-/*letter-spacing: 5px; */
-/*word-spacing: 42px*/;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 5px; */
+  /* word-spacing: 42px; */
 }
 /* Box model */
 .container {
-max-width:750px;
-margin: auto;
-
+  max-width: 750px;
+  margin: auto;
 }
 
 /* .box-model > div {
@@ -112,16 +106,16 @@ margin: auto;
   margin: 20px;
   padding: 20px;
   box-sizing: border-box;
- }*/
+} */
 
 .bg-red {
-  background-color: #f7dadb;      
+  background-color: #f7dadb;
 }
 .bg-yellow {
-  background-color: #f6eecc;  
+  background-color: #f6eecc;
 }
 .bg-green {
-  background-color: #f5f7f2;  
+  background-color: #f5f7f2;
 }
 
  .card
@@ -134,21 +128,19 @@ margin: auto;
   }
   .list {
     padding: 10px 15px;
+    border-bottom: 1px solid #eee;
   }
   .list li {
     color: #331717;
     margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
   }
   .table {
     width: 100%;;
   }
   .table td {
+    padding: 10px;
     padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
   }
-  .table td:nth-child(2),
-  .table td:nth-child(3) {
-    color: #4a2e2e;
-  }
-  .table tr:nth-child(even) {
-    background-color: #552222;
-  }
+  
