@@ -214,3 +214,26 @@ h2.section-title {
 .section#hobby h2 {
   font-size: 24px;
 }
+/* sticker label */
+.section.sticker {
+  position: relative;
+  overflow: hidden;
+}
+
+.section.sticker::after{
+  content: "cute!";
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  padding: 6px 10px;
+  font-family: "Comfortaa","Rubik",sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #7A4C6E;
+  background: #fff;
+  border: 2px dashed #FF8BCB;
+  border-radius: 999px;
+  transform: rotate(6deg);
+  box-shadow: var(--shadow-soft);
+  opacity: .95;
+}
